@@ -6,7 +6,7 @@ const path = require('path');
 const mongoose = require('mongoose')
 
 //mongoose
-mongoose.connect('mongodb+srv://hugo:123@cluster0.9jizf.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', {useNewUrlParser: true, useUnifiedTopology: true})
+mongoose.connect(', {useNewUrlParser: true, useUnifiedTopology: true})
 const db = mongoose.connection;
 
 db.on('error', console.error.bind(console, 'connection error:'));
