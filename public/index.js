@@ -1,0 +1,1 @@
+windows.alert('Welcome the page');
